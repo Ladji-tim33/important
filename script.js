@@ -18,7 +18,7 @@ myButton.addEventListener('click', function() {
     myInput.style.display = "none"
     myButton.style.display = "none"
     divPara.style.display = "none"
-    myElement2.style.fontSize = "20px"
+  
     myElement2.style.color = "white"
     myResult.appendChild(myElement1);
     myResult.appendChild(myElement2)
@@ -31,7 +31,6 @@ myButton.addEventListener('click', function() {
     myElement1.innerHTML = myInput.value;
     myElement1.style.display = "none"
     myElement2.innerText = "Bah c'est pas grave j'ais pas de chance, alors je te souhaite tous le bonheur"
-    myElement2.style.fontSize = "25px";
     myInput.style.display = "none";
     myButton.style.display = "none";    
     divPara.style.display = "none";
